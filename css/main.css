@@ -836,10 +836,13 @@ footer p a:hover{
 }
 
 .call{
-  display: none;
+  height: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #dd4940;
+  font-weight: 80;
+   
 }
 
-.call-btn:hover + .call{
-  display: block;
-  color:rgb(221, 73, 64);
-}
+
+
