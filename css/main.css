@@ -284,7 +284,7 @@
 
 
 .about-col-2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
   
@@ -316,7 +316,7 @@ padding-right: 10px;
 
 .projects-lists {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
   margin-top: 50px;
   
@@ -353,16 +353,18 @@ padding-right: 10px;
   transition: height 0.5s;
 }
 
-.layer h3 {
-  font-weight: 500;
+.layer h5 {
+  font-weight: 300;
   margin-bottom: 20px;
   color: #ccc;
   backface-visibility: hidden;
 }
-
+.layer p{
+  color: #ccc;
+}
 .layer a {
   margin-top: 20px;
-  color: #dd4940;
+  color: #a11554;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -379,6 +381,89 @@ padding-right: 10px;
 
 .work:hover .layer {
   height: 100%;
+}
+
+@media only screen and (max-width: 991px){
+  #projects {
+    display: flex;
+    padding-top: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .projects-lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 50px;
+    
+  }
+  
+  .work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(rgba(0,0,0,0.6), #a11554);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    transition: height 0.5s;
+  }
+  .layer p{
+    color: #ccc;
+  }
+  
+  .layer h5 {
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #ccc;
+    backface-visibility: hidden;
+  }
+  
+  .layer a {
+    margin-top: 20px;
+    color: #a11554;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #ccc;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    }
+  
+  .work:hover img{
+    transform: scale(1.1);
+  }
+  
+  .work:hover .layer {
+    height: 100%;
+  }
+  
+
 }
 
 /*----------------------------- caraousel------------------------*/ 
