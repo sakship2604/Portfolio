@@ -960,13 +960,15 @@ footer p a:hover{
   transform: translate(-5px);
 }
 
-#footer {  
+.footer {  
+
   margin-top: 40px;
   padding-top: 20px;
   height: 40px;
 }
 
-.footer-text {
+.footer p {
+  
   color: #ccc;
   font-size: 20px;
   text-align: center;
@@ -976,10 +978,10 @@ footer p a:hover{
 
 .call a {
   text-decoration: none;
-   font-size: 25px;
+  font-size: 25px;
   margin-right: 15px;
   margin-left: 15px;
-  color : #590f6b;
+  color : #a11554;
   display: inline-block;
   transition: transform 0.5s;
 }
@@ -994,8 +996,8 @@ footer p a:hover{
   height: 40px;
   padding-bottom: 10px;
   text-align: center;
-  color:#590f6b;
-  font-weight: 80;   
+  color:#a11554;
+  font-weight: 60;   
 }
 
 
