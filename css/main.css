@@ -135,7 +135,7 @@
     right: 0;
     z-index: 2000;
     padding-top: 20px;
-    background: #fff;
+    background: #a11554;
     height: calc(100vh);
     -webkit-transform: translateX(110%);
     -ms-transform: translateX(110%);
@@ -198,12 +198,12 @@
         position: relative;
         color: #fff; }
         .site-mobile-menu .site-nav-wrap a:hover {
-          color: #a11554; }
+          color: #431329; }
       .site-mobile-menu .site-nav-wrap li {
         position: relative;
         display: block; }
         .site-mobile-menu .site-nav-wrap li.active > a {
-          color: #a11554; }
+          color: #8a174b; }
       .site-mobile-menu .site-nav-wrap .arrow-collapse {
         position: absolute;
         right: 0px;
