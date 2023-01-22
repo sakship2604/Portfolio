@@ -37,7 +37,7 @@
       visibility: visible; }
   
   p {
-    color: #a11554;
+    color: #570b52;
     font-weight: 300; }
   
   h1, h2, h3, h4, h5, h6,
@@ -272,36 +272,35 @@
  /*------------------ABOUT---------------------*/
 
  #about {
-   margin-top: 20px;
+  background-image: url("../img/About.png");
+  
+  background-repeat: no-repeat;
+  margin-top: 20px;
 	width: 100%;
 	}
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
 .about-col-2 {
+  
   font-size: 20px;
   font-weight: 200;
   text-align: center;
-  
+  height: 800px;
 }
 
-.sub-title {
+
+
+/*.sub-title {
 padding-left: 10px;
 padding-right: 10px;
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
   background: -webkit-linear-gradient(#dd4940, #590f6b);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   align-self: center;
-}
+}*/
 
 @media only screen and (max-width: 991px){
   .sub-title {
@@ -323,8 +322,8 @@ padding-right: 10px;
 
 #projects {
   display: flex;
-  padding-top: 50px;
-  margin-top: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
 	justify-content: center;
 	align-items: center;
   
