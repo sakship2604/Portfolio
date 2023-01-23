@@ -289,7 +289,7 @@
 
 
 
-/*.sub-title {
+.sub-title {
 padding-left: 10px;
 padding-right: 10px;
   font-size: 60px;
@@ -300,7 +300,7 @@ padding-right: 10px;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   align-self: center;
-}*/
+}
 
 @media only screen and (max-width: 991px){
   .sub-title {
