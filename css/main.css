@@ -272,8 +272,7 @@
  /*------------------ABOUT---------------------*/
 
  #about {
-  background-image: url("../img/About.png");
-  
+  background-image: url("../img/About.png");  
   background-repeat: no-repeat;
   margin-top: 20px;
 	width: 100%;
@@ -331,7 +330,7 @@ padding-right: 10px;
 
 .projects-lists {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
   margin-top: 50px;
   
@@ -369,7 +368,7 @@ padding-right: 10px;
 }
 
 .layer h5 {
-  font-weight: 300;
+  font-weight: bold;
   margin-bottom: 20px;
   color: #ccc;
   backface-visibility: hidden;
