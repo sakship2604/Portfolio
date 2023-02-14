@@ -556,8 +556,14 @@ a:hover {
 
 #about {
   background: url("../img/Aboutbig.png");
-  margin-top: 20px;
+
   width: 100%;
+
+ 
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .about-col-2 {
@@ -578,6 +584,15 @@ a:hover {
 
 }
 
+.ig {
+  position: absolute;
+width: 530px;
+height: 931px;
+left: 996px;
+top: 600px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 
 
 .sub-title {
