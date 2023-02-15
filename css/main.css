@@ -177,7 +177,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 991px) {
-  
+
   .one {
     background-image: url("../img/bb.png");
     height: 110vh;
@@ -825,8 +825,8 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 /*-----------------modals----------------------------------------*/
 
 .modal {
-  border: 5px solid red;
-  background-color: yellow;
+  border-radius: 10px;
+  background-color: rgba(106, 0, 255, 0.316);
   box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
 }
 
@@ -928,7 +928,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     grid-column: span 2;
     grid-row: span 2;
   }
-
+  
   .grid-wrapper .tall {
     grid-row: span 2;
   }
