@@ -824,10 +824,32 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 /*-----------------modals----------------------------------------*/
 
+
 .modal {
   border-radius: 10px;
   background-color: rgba(106, 0, 255, 0.316);
   box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+}
+
+.modal-dialog{
+  overflow-y: initial !important
+}
+.modal-body{
+  height: 80vh;
+  overflow-y: auto;
+}
+.p1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 200;
+  margin: auto;
+  text-align: center;
+
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 /*----------------------------- caraousel------------------------*/
