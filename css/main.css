@@ -852,6 +852,11 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   font-size: 16px;
 }
 
+.modal-b{
+  height: 40vh;
+  overflow-y: auto;
+}
+
 /*----------------------------- caraousel------------------------*/
 
 #travel {
