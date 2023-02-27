@@ -705,8 +705,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 .layer h5 {
   font-weight: bold;
+  font-size: 40px;
   margin-bottom: 20px;
-  color: #ccc;
+  color: #fff;
   backface-visibility: hidden;
 }
 
@@ -790,9 +791,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   }
 
   .layer h5 {
-    font-weight: 100;
+    font-weight: bold;
+    font-size: 40px;
     margin-bottom: 20px;
-    color: #ccc;
+    color: #fff;
     backface-visibility: hidden;
   }
 
@@ -839,7 +841,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   overflow-y: auto;
 }
 .p1 {
-  color: #000;
+  color: #04052B;
   font-size: 20px;
   font-weight: 200;
   margin: auto;
@@ -856,6 +858,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   height: 40vh;
   overflow-y: auto;
 }
+
+.modal-title{
+  font-weight: bold;
+  font-size: 40px;
+}
+
 
 /*----------------------------- caraousel------------------------*/
 
