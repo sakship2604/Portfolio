@@ -856,7 +856,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 .modal-b{
   height: 40vh;
-  overflow-y: auto;
+ width: fit-content;
 }
 
 .modal-title{
